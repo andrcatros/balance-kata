@@ -81,10 +81,10 @@ describe("findBalance()", () => {
     });
 
     it("returns an accurate negative balance", () => {
-        expect(findBalance(mockTransactions, "groceries", new Date("2018-03-12"), new Date("2018-05-22"))).toEqual(-120);
+        expect(findBalance(mockTransactions, "groceries", new Date("2018-03-12"), new Date("2018-05-23"))).toEqual(-120);
     });
 
     it("returns an accurage positive balance", () => {
-        expect(findBalance(mockTransactions, "deposit", new Date("2018-03-12"), new Date("2018-05-22"))).toEqual(1070);
+        expect(findBalance(mockTransactions, "deposit", new Date("2018-03-12"), new Date("2018-05-23"))).toEqual(1070);
     });
 }); 
