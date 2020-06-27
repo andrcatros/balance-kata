@@ -1,0 +1,19 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "just a kata for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N/A.git"
+  },
+  "author": "Andreea Ros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A#readme"
+}
